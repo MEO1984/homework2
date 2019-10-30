@@ -1,0 +1,148 @@
+body {
+    width: 960px;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    background-image: url(background.png)
+
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+.navbar-header {
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    right: 15px;
+    padding-bottom: 10px;
+
+
+
+}
+.nav  {
+    color: #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-top: 15px;
+
+
+}
+
+#main {
+    box-sizing: border-box;
+    background-color: white;
+    height: 336px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+
+}
+
+#me {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding: 20px;
+    border-bottom: 2px solid #dddddd;
+    
+    
+
+}
+#photo {
+    height: 240px;
+    position: relative;
+    float: left;
+    padding-top: 10px;
+
+
+
+}
+p {
+    padding: 15px;
+
+}
+.container-fluid {
+    background-color: white;
+
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    align-content: bottom;
+    text-align: center;
+    height: 60px;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    left: 0px;
+} 
+
+#contact {
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        color: #4aaaa5;
+        border-bottom: 2px solid #dddddd;
+        
+        padding-left:0;
+
+
+}
+    
+input{
+        width:100%;
+        
+}
+
+form {
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        color:#777777;
+        background-color: white;    
+        padding: 20px; 
+
+    
+}
+    
+.button {
+        width: 60px;
+        color:white;
+        background-color:#4aaaa5 ;
+        padding: 5px;
+}
+
+
+.container {
+    object-fit: contain;
+    position: relative;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border: solid black 2px;
+    /* it will not let me resize the containers which are illustrated by the border */
+
+}        
+
+
+    
+
+
+
+
+
+    
+.text-block {
+        position: absolute;
+        top:70%;
+        width: 25%;
+        text-align: center;
+        background-color: #4aaaa5;
+        color: white;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
