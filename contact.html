@@ -1,66 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<!-- This page contains "About Me" section and serves as the home page -->
 <head>
-
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <title>Michael O'Malley</title>
-
-
-
-
+    <title>Portfolio</title>
+    <!-- Linking normalized, then Bootstrap, then style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-        <header class="header">
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                        <h1 class="name">Michael O'Malley</h1>
-                        </div>
-                    <ul class="nav navbar-nav navbar-right">
-                            <li><a href="">About Me</a></li>
-                            <li><a href="">Contact</a></li>
-                            <li><a href="">Portfolio</a></li>
-        
-                    </ul>
-        
+<body> 
+    <!-- Nav row using bootsrap components -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-white" id="nav">
+            <a class="navbar-brand justify-content-center" href="index.html"><h1 id="name">Michael O'Malley</h1></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav .collapse.navbar-collapse">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <p class="nav-item nav-link">|</p>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <p class="nav-item nav-link">|</p>
+                <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </div>
+            </div>
+            <div class="col-sm-2">
+            </div>
+    </nav>
+        <!-- Main section containing "About Me" -->
+    <div class="background">
+        <div class="row content-margin">
+        </div>
+        <!-- Picture and Short Bio -->
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8" id="content">
+            <h1 id="aboutme">Contact</h1>
+            <div class="row">
+                    <div class="col">
+                        <h6>Name:</h6>
+                            <input type="text" class="form-control" placeholder="John Smith">
                     </div>
-        
-                </nav>
-        
-            </header>
-
-            <div class="wrapper">
-
-                    <form>
-                        <h2 id="contact">Contact</h2>
-                    
-                    
-                        Name:<br>
-                        <input type="text"  name="name"><br>
-                        <br>
-                        Email:<br>
-                        <input type="text" id="text" name="email"><br>
-                        <br>
-                        Message:<br>
-                        <textarea rows=8 cols=128></textarea>
-                        <br>
-                        <input type="button" class="button" value="Submit">
-            
-            
-            
-                    </form>
-                    <br>
-            
                 </div>
-           
+                    <br>
+                <div class="row">
+                    <div class="col">
+                     <h6>Email:</h6>
+                        <input type="text" class="form-control" placeholder="example@gmail.com">
+                     </div>
+    
+                 </div>
+                    <br>
+                 <div class="row">
+                     <div class="col">
+                         <h6>Message:</h6>
+                            <textarea class="form-control" rows="3">Message</textarea>
+                     </div>
+                 </div>
+                        <br>
+                 <div class="row">
+                     <div class="col-sm-2">
+                         <button type="submit" class="btn btn-info">Submit</button>
+                     </div>
+                 </div>
+                <div class="col-sm-2">
+                </div>
+            </div>
+        <div class="row content-margin">
+        </div>
+        </div>
+    </div>
+    <!-- Sticky Footer -->
 
 </body>
-<footer>
-    Copyright
+<!-- Footer -->
+<footer class="page-footer font-small">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© Copyright
+    </div>
+    <!-- Copyright -->
+      
 </footer>
+      <!-- Footer -->
+</html>
